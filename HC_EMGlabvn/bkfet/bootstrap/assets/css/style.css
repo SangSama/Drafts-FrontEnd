@@ -1,0 +1,1038 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	line-height: 25px;	
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+button:focus{
+	outline: none;
+}
+
+input:focus{
+	outline: none;
+}
+
+.container{
+	width: 100%;
+	max-width: 1200px;
+}
+
+#header{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.header img{
+	max-width: 200%;
+    width: 150%;
+    height: 150%;
+    margin-left: 20px;
+}
+
+.menu{
+	background-image: url();
+	float: right;
+	margin-top: 20px;
+}
+
+.menu-bar ul {
+	margin-top: 20px;
+}
+
+.menu-bar ul li{
+	float: left;
+	list-style-type: none;
+	padding: 7px 6.5px;
+	border-right: 1px solid #ccc;
+}
+
+.menu-bar ul li a{
+	font-weight: 600;
+    font-size: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+}
+
+.menu-bar ul li:hover a{
+	color: #008060;
+}
+
+.menu-search{
+	margin-top: 20px;
+}
+
+.menu-search input{
+	margin-left: -5px;
+	width: 100%;
+	color: black;
+	background: #fff;
+	border-radius: 20px;
+	padding-left: 20px;
+	line-height: 2.5;
+}
+
+.menu-search input::placeholder{
+	color: black;
+}
+
+.menu-search button{
+	color: black;
+	position: absolute;
+	background: transparent;
+	border: none;
+	top: 27px;
+    right: 37px;
+}
+
+.menu-search button i {
+	color: #009973;
+}
+
+
+/******************footer****************/
+.footer{
+	padding: 50px 0px;
+	background-color: #ccc;
+	/*margin-top: 20px;*/
+}
+
+.picture-footer img{
+	max-width: 110%;
+	margin-top: 70px;
+}
+
+.footer-total{
+	margin-left: 25px;
+}
+
+.footer-total h4{
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.footer-total ul li{
+	list-style-type: none;
+}
+
+.footer-total ul li a{
+	text-decoration: none;
+	font-weight: 550;
+	/*opacity: 0.4;*/
+	font-size: 16px;
+	color: #666;
+	line-height: 1.7;
+}
+
+.footer-total a:hover{
+	color: #009973;
+}
+
+.footer-contact {
+	margin-left: 15px;
+}
+
+.footer-contact h4{
+	margin-bottom: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.contact{
+	margin-bottom: 12px;
+}
+
+.icon-contact{
+	padding-right: 10px;
+	float: left;
+}
+
+.icon-contact i{
+	color: #009973;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.text-contact p{
+	margin: 0px;
+	padding-left: 35px;
+	font-size: 15px;	
+}
+
+.footer-facebook h4{
+	margin-bottom: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.footer-facebook iframe{
+	max-width: 100%;
+}
+
+
+/**************** sản phẩm********************/
+.product{
+	padding: 30px 0px;
+}
+
+.product a{
+	text-decoration: none;
+}
+
+.main-item-iot-level-2 ul{	
+	padding: 0px 5px;
+	margin: 0px;
+	list-style-type: none;	
+}
+
+.main-item-iot{
+	margin-bottom: 10px;
+	border: 1px solid #eee;	
+	border-radius: 10px;
+}
+
+.main-item-iot-level-1{
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	padding: 10px;
+	color: #fff;
+	background: #00664d;
+	text-transform: uppercase;
+	font-weight: 700;	
+}
+
+.main-item-iot-level-1 p{
+	margin: 0px;
+	font-weight: 700;
+	padding-left: 10px;
+}
+
+.main-item-iot-level-1 p a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.main-item-iot-level-1 p i {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.main-item-iot-level-2{
+	padding: 0px 5px;	
+}
+
+.main-item-iot-level-2 ul li{
+	margin: 0px;
+	padding: 8px 0px;
+	border-top: 1px solid #eee;
+}
+
+.main-item-iot ul li a{
+	font-weight: 600;
+	padding-left: 10px;
+	text-decoration: none;
+	color: #009973;
+}
+
+.main-item-iot-level-2 i{
+	color: #009973;
+	padding-left: 10px;
+}
+
+.products-new{
+	padding-top: 20px;
+}
+
+.main-item-products-new{
+	border: 1px solid #eee;
+	border-radius: 15px;
+	padding: 10px 0px;
+}
+
+.main-item-products-new h3{
+	padding-left: 20px;
+	padding-bottom: 10px;
+    margin: 0px;
+	font-size: 24px;
+	font-weight: 700;
+	color: #000;
+	border-bottom: 2px solid #009973;
+}
+
+.picture-products{
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.picture-products img{
+	max-width: 100%;	    
+    width: auto;
+    height: 135px;
+}
+
+.text-products{
+	text-align: center;	
+}
+
+.text-products h4{
+	margin: 0px;
+	height: 55px;
+	color: #000;
+	font-weight: 700;
+	font-size: 20px;
+	padding-top: 0px;
+}
+
+.text-products p{
+	font-size: 20px;
+	font-weight: 700;
+	color: #ff0000;
+}
+
+.text-products button{
+	padding: 5px 10px;
+	text-transform: uppercase;
+	font-weight: 500;
+	border-radius: 15px;
+	font-size: 15px;
+	background: #009973;
+	color: #fff;
+	border: none;
+}
+
+.main-item-products-featured {
+	margin: 20px 0px;
+	border: 1px solid #eee;
+	border-radius: 15px;
+	padding: 10px 0px;
+}
+
+.main-item-products-featured h3{
+	padding-left: 20px;
+	padding-bottom: 10px;
+    margin: 0px;
+	font-size: 24px;
+	font-weight: 700;
+	color: #000;
+	border-bottom: 2px solid #009973;
+}
+
+.main-item-products-electronic{
+	border: 1px solid #eee;
+	border-radius: 15px;
+	padding: 10px 0px;
+}
+
+.main-item-products-electronic h3{
+	padding-bottom: 10px;
+	padding-left: 20px;
+    margin: 0px;
+	font-size: 24px;
+	font-weight: 700;
+	color: #000;
+	border-bottom: 2px solid #009973;
+}
+
+
+/***************thực hành********************/
+.practice{
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+.practice li{
+	margin-left: 20px;
+}
+
+.practice a{
+	text-decoration: none;
+}
+
+.practice a:hover{
+	color: #009973;
+}
+.roll-call-online {
+	margin: 5px 100px;
+}
+
+.roll-call-online img{
+	max-width: 100%;
+}
+
+.roll-call-online h3{
+	font-weight: 500;
+}
+
+.roll-call-online p{
+	text-align: justify;
+	font-size: 16px;
+}
+
+.project {
+	margin: 5px 100px;
+}
+
+.project h3{
+	font-weight: 500;
+}
+
+.text-project{
+	font-size: 16px;
+}
+
+.text-project a:hover {
+	color: #009973;
+}
+
+.rules {
+	margin: 5px 100px;
+}
+
+.text-rules{
+	text-align: justify;
+	font-size: 17px;
+	margin-left: 10px;
+}
+
+.picture-rules{
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 15px;
+}
+
+.picture-rules img{
+	width: 166px;
+}
+
+.rules h3{
+	font-weight: 500;
+}
+
+.introduction{
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+
+.introduction h3{
+	font-weight: 500;
+}
+
+.picture-introduction{
+	float: left;
+	margin-right: 20px;
+}
+
+.picture-introduction img{
+	width: 200px;
+}
+
+.text-introduction{
+	text-align: justify;
+	font-size: 16px;
+}
+
+.text-introduction a{
+	text-decoration: none;
+}
+
+.text-introduction a:hover{
+	color: #009973;
+}
+
+.text-introduction li{
+	margin-left: 15px;
+}
+
+.picture-address{
+	text-align: center;
+}
+
+.address-practice img{
+	width: 90%;
+}
+
+
+/******************thong tin sp*****************/
+.information{
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+.information h4{
+	text-align: center;
+    color: #000;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.picture-information-1{
+	text-align: center;
+}
+
+.producer h5{
+	float: left;
+	font-size: 22px;
+	font-weight: 600;
+	margin: 0px;
+	padding-right: 10px;
+}
+
+.producer p{
+	margin: 0px;
+	font-size: 22px;
+}
+
+.number{
+	padding: 20px 0px;
+}
+
+.number p{
+	float: left;
+	font-size: 22px;
+	font-weight: 600;
+	padding-right: 15px;
+}
+
+.number input{
+	width: 20px;
+	width: 45px;
+    height: 25px;
+}
+
+.text-information{
+	padding-top: 25px;
+}
+
+.text-information-1{
+	width: 100px;
+	border: 1px solid #eee;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.text-information-1 p{
+	margin: 0px;
+	padding: 5px 20px;
+}
+
+.text-information-2{
+	border: 1px solid #eee;
+	padding: 30px 20px;
+}
+
+.text-information-2 p{		
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.text-information-2 img{
+	max-width: 100%;
+}
+
+.text-information-2 h5{
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.text-information-2 ul li{
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+
+/******************SCIENCE***************************/
+.page-header {
+	width: 100%;
+	height: 450px;
+	margin: 0px;
+	background-size: cover;
+    background-position: center;
+}
+
+.page-course-header {
+	padding-bottom: 220px;
+    padding-top: 200px;
+    text-align: center;
+}
+
+#science {
+	padding-top: 20px;
+}
+
+#science h3 {
+	padding-bottom: 1px;
+}
+
+#science .img {
+	float: left;
+	padding-top: 25px;
+}
+
+.color {
+	width: 100px;
+	height: 5px;
+	background-color: #009973;
+	margin-bottom: 20px;
+}
+
+.colorr {
+	width: 60px;
+	height: 4px;
+	background-color: #009973;
+	margin-bottom: 15px;
+}
+
+h4 {
+	padding-top: 15px;
+	padding-bottom: 0px;
+}
+
+.menuls {
+	padding-bottom: 5px;
+	padding-top: 15px;
+}
+
+.menuls a {
+	text-decoration: none;
+	color: #000;
+}
+
+.menuls a:hover {
+	color: #009973;
+}
+
+.menuls img {
+	width: 300px;
+	height: 200px;
+	padding-bottom: 3px;
+}
+
+.menuls img:hover {
+	/*transition: 5s;
+	transform: scale(1.2);*/
+}
+
+
+/******************FULLSCIENCE*********************/
+#full {
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+
+#full .lifull {
+	margin-left: 60px;
+	margin-bottom: 10px;
+}
+
+.lifull1 {
+	margin-left: 50px;
+	margin-bottom: 10px;
+	margin-top: 4px;
+}
+
+.lifull2 {
+	margin-left: 40px;
+	margin-bottom: 10px;
+	margin-top: 3px;
+}
+
+
+/************************HOME************************/
+#full h4 {
+	padding-left: 5px;
+}
+
+#full .imgnoti {
+	float: right;
+	padding-right: 10px;
+}
+
+.notification {
+	margin-top: 20px;
+}
+
+.news {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.news h3 {
+	width: 220px;
+	background-color: #ccc;
+	color: #000;
+	border-right: 6px solid #666;
+	border-bottom: 2px solid #666;
+	border-bottom-right-radius: 10px 25px;
+}
+
+.news h3 i {
+	margin-left: 3px;
+	color: #008060;
+}
+
+.newss {
+	height: 95px;
+	border: 2px double #ccc;
+	margin-bottom: 10px;
+}
+
+.newss a{
+	list-style-type: none;
+	color: #000;
+}
+.newss a:hover {
+	color: #009973;
+}
+
+.newss .imgnew {
+	float: left;
+	margin: 5px 5px;
+}
+
+.newss .imgnew img {
+	width: 120px;
+	height: 80px;
+}
+
+.newss .newtext {
+	float: left;
+	padding-left: 3px;
+	width: 330px;
+	height: 80px;
+	line-height: 12px;
+}
+
+.newss .newtext h4 {
+	margin: -10px 0px 1px 5px;
+}
+
+.list-science {
+	background-color: #ccc;
+}
+
+.list-science .fulllists {
+	width: 350px;
+	margin-left: 30px;
+	padding: 30px 0px;
+	float: left;
+}
+
+.list-science .fulllists img {
+	width: 350px;
+	height: 220px;
+}
+
+.list-science .fulllists .text {
+	background-color: #fff;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.fulllists .link {
+	background-color: #009973;
+}
+
+.fulllists .link:hover {
+	background-color: #000;
+}
+
+.fulllists h4 {
+	margin: 0px;
+	padding-top: 5px;
+}
+
+.fulllists .link a {
+	width: 350px;
+	text-decoration: none;
+}
+
+.memory {
+	background-color: #009973;
+	margin: 20px 0px;
+}
+
+.memory .cmt {
+	float: left;
+	padding: 10px 5px;
+}
+
+.memory .cmt img {
+	width: 220px;
+	height: 150px;
+}
+
+.keymember {
+	height: auto;
+	background-color: #ccc;
+}
+
+.menber {
+	height: 350px;
+	border-bottom: 2px solid #333;
+	border-right: 5px solid #333;
+	border-bottom-right-radius: 25px;
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+
+.menber:hover {
+	border-bottom: 2px solid #009973;
+	border-right: 5px solid #009973;
+}
+
+.imgmenber {
+	width: 100px;
+	height: auto;
+	margin-right: 5px;
+	float: left;
+}
+
+.imgmenber img {
+	width: 100px;
+	height: 100px;
+	border-radius:50%;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+}
+
+.namemenber {
+	width: 250px;
+	float: left;
+	margin-left: 5px;
+}
+
+.namemenber h4 {
+	color: #000;
+	padding-top: 5px;
+	margin: 0px;
+	margin-left: 5px;
+}
+
+.namemenber h4:hover {
+	color: #009973;
+}
+
+.namemenber p {
+	color: #333;
+	margin-left: 5px;
+	margin-bottom: 0px;
+	float: left;
+}
+
+.namemenber a i {
+	margin-right: 0px;
+}
+
+.menber i {
+	color: #009973;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.addmenber {
+	margin-top: 5px;
+}
+
+.spmenber img {
+	width: 380px;
+	height: 235px;
+	margin: 0px;
+	float: left;
+	padding-right: 10px;
+}
+
+.spmenber {
+	margin-bottom: 10px;
+}
+
+.spmenber a {
+	color: #000;
+}
+
+.spmenber a:hover {
+	color: #009973;
+}
+
+/***********************listmenber********************************/
+#listmenber .boss {
+	background-color: #b3b3b3;
+}
+
+.topic h2 {
+
+}
+
+#listmenber .boss .topic h2 {
+	color: #fff;
+}
+
+#listmenber .boss .menber .namemenber h4 {
+	color: #000;
+}
+
+#listmenber .boss .menber .namemenber h4:hover {
+	color: #009973;
+}
+
+#listmenber .boss .menber .namemenber p {
+	color: #fff;
+}
+
+#listmenber .boss .menber .addmenber {
+	color: #fff;
+}
+
+#listmenber .boss .menber .fullmenber {
+	color: #333;
+}
+
+#listmenber .boss .menber .fullmenber ul {
+	margin-left: 5px;
+}
+
+#listmenber .khoa:hover {
+	background-color: #ccc;
+}
+
+#listmenber .menbers {
+	height: 260px;
+	border-bottom: 2px dashed #009973;
+	border-right: 5px double #009973;
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+
+.menbers i {
+	color: #009973;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+
+/**************************notificationlist************************/
+#listnotis {
+	background-image: url(../images/menber/color.PNG);
+	background-repeat: repeat;
+}
+
+#listnotis .listss {
+	background-color: #ccc;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 20px 20px;
+}
+
+#listnotis .listss ul {
+	list-style-type: none;
+}
+
+#listnotis .listss ul li {
+	border-bottom: 5px solid #666;
+}
+
+#listnotis .listss ul li a {
+	color: #000;
+}
+
+#listnotis .listss ul li:hover {
+	background-color: #fff;
+}
+
+#listnotis .listss .imgnoti {
+	width: 70px;
+	height: 70px;
+	margin-right: 10px;
+	float: left;
+}
+
+#listnotis .listss .imgnoti img {
+	width: 70px;
+	height: 70px;
+}
+
+#listnotis .listss .textnoti {
+	float: left;
+}
+
+#listnotis .listss .textnoti h5 {
+	margin: 2px;
+	padding-top: 0px;
+}
+
+#listnotis .listss .textnoti p {
+	padding: 0px;
+	color: #333;
+}
+
+#listnotis .listss .update {
+	width: 160px;
+	border-left: 2px solid #000;
+	border-bottom-left-radius: 20px;
+	padding-top: 1px;
+	margin-top: 2px;
+	background-color: #009973;
+	color: #fff;
+}
+
+#listnotis .listss .update:hover {
+	background-color: #009973;
+	color: #fff;
+}
+
+#listnotis .listss .update h5 {
+	margin: 10px 0px 10px 30px;
+
+}
+
+#listnotis .contents {
+	background-color: #fff;
+	padding-bottom: 10px;
+}
+
+#listnotis .contents h2 {
+	padding-top: 50px;
+	margin: 10px 20px;
+}
+
+#listnotis .contents h4 {
+	margin: 0px;
+}
+
+#listnotis .contents p {
+	margin: 10px 40px 50px 40px;
+}
+
+#listnotis .contents img {
+	width: 500px;
+	height: auto;
+}
+
+/********************List Project******************************/
+.project {
+	padding-bottom: 30px;
+	padding-top: 10px;
+	border-top: 4px dashed #ccc;
+}
+
+.project h2 {
+	padding-bottom: 10px;
+}
+
+.imgproject-left {
+	float: left;
+	width: 350px;
+}
+
+.project img {
+	width: 100%;
+	height: 100%;
+	padding-right: 20px;
+	padding-bottom: 5px;
+
+/********productproject********/
+

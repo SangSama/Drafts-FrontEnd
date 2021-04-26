@@ -1,0 +1,62 @@
+:root {
+
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav {
+    height: 100vh;
+}
+
+.quiz {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quiz .question {
+    width: 70%;
+    border: 2px solid #000000;
+    border-radius: 10px 30px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.quiz .question h2 {
+
+}
+
+.quiz .question p {
+    text-indent: 30px;
+}
+
+.quiz .question .answer {
+
+}
+
+.quiz .answer ul {
+    list-style-type: none;
+}
+
+.quiz .answer ul li {
+
+}
+
+.quiz .answer ul li input {
+    margin-right: 10px;
+}
+
+.quiz .pagination_Quiz {
+    margin: 10px;
+}
+
+.quiz .pagination_Quiz ul > li > a{
+    color: black;
+}
+

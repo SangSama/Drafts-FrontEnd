@@ -1,0 +1,15 @@
+header {
+    display: flex;
+}
+
+th, td {
+    padding: 20px;
+}
+
+.create {
+
+}
+
+.custom-select {
+    width: 100px;
+}

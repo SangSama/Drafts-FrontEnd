@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Document</title>
+  <!-- Bootstrap CSS -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+    integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<!-- phân trang, mõi trang 5 bản ghi, nếu <= 5 bản gì thì k hiện phân trang, nếu > 5 bản ghi thì hiện phân trang,nếu ở trang 1 thì previous phải disable, nếu trang cuối thì nút next là disable -->
+
+<body>
+  <header>
+    <div class="search">
+      <label for="search">
+        <input id="search" onkeyup="searchMember(event)" type="text" placeholder="Search..." />
+      </label>
+    </div>
+    <div class="create">
+      <button id="create" type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+        create
+      </button>
+    </div>
+    <div class="custom-select">
+      <select>
+        <option value="0">All</option>
+        <option value="1">Active</option>
+        <option value="2">Inactive</option>
+      </select>
+    </div>
+  </header>
+
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>id</th>
+          <th>name</th>
+          <th>team</th>
+          <th>email</th>
+          <th>active</th>
+          <th>custom</th>
+        </tr>
+      </thead>
+      <tbody id="listData"></tbody>
+    </table>
+    <nav id="numberPage" aria-label="Page navigation example"></nav>
+  </body>
+
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">New Member</h4>
+          <button type="button" class="close" data-dismiss="modal">
+            &times;
+          </button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          <label for="name-data">
+            <input id="name-data" type="text" placeholder="name" />
+          </label>
+          <label for="team-data">
+            <input id="team-data" type="text" placeholder="team" />
+          </label>
+          <label for="email-data">
+            <input id="email-data" type="text" placeholder="email" />
+          </label>
+
+          <label class="active-data">Active
+            <input type="radio" id="" name="checkActive" value="active" checked="checked">
+          </label>
+          <label class="active-data">Inactive
+            <input type="radio" id="" name="checkActive" value="active">
+          </label>
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" onclick="checkCondition()">
+            Submit
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="./active.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

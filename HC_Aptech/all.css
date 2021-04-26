@@ -1,0 +1,317 @@
+:root {
+  --main-color-red: #ad1b1f;
+  --main-color-yellow: #efaf13;
+
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-gray: #f9f9f9;
+  --color-gray-01: #6e6e6e;
+
+  --color-bg-footer: #2a2a2a;
+  --color-bg-copyright: #111111;
+
+  --font-size-12: 12px;
+  --font-size-14: 14px;
+  --font-size-15: 15px;
+  --font-size-16: 16px;
+  --font-size-18: 18px;
+  --font-size-24: 24px;
+
+  --alignment-30: 30px;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-size: var(--font-size-14);
+  line-height: 24px;
+}
+
+.container {
+  max-width: 880px;
+}
+
+/* **********START HEADER********** */
+header {
+  box-shadow: 0 0 15px -5px #333333f1;
+  background-color: var(--color-white);
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
+.row {}
+
+.logo {
+  padding: 10px 0;
+  height: auto;
+  float: right;
+}
+
+.logo img {
+  width: 100%;
+}
+
+nav {}
+
+nav ul {
+  margin: 28px 0 0 -10px;
+}
+
+nav ul li {
+  list-style-type: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 10px;
+  position: relative;
+}
+
+nav>ul>li {
+  display: inline-block;
+}
+
+nav>ul>li:hover {
+  border-bottom: 3px solid #ad1b1f;
+  transition: all .4s;
+}
+
+nav ul li a {
+  color: #000000;
+  padding-bottom: 15px;
+  font-size: 12px;
+}
+
+nav>ul>li>a {
+  display: block;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  color: #ad1b1f;
+}
+
+nav ul .sub-menu {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  margin: 0;
+  width: max-content;
+  display: none;
+  transition: all 0.6s;
+}
+
+.sub-menu li {
+  background-color: #000000;
+  padding: 2px 15px;
+  margin-bottom: 1px;
+  font-weight: normal;
+  text-transform: capitalize;
+  transition: all 0.2s;
+}
+
+.sub-menu li:hover {
+  background-color: #ffffff;
+}
+
+.sub-menu li:hover>a {
+  color: #ad1b1f;
+}
+
+.sub-menu li a {
+  color: #ffffff;
+}
+
+nav ul li:hover .sub-menu {
+  display: block;
+}
+
+nav .sub-menu .sub-mini:hover>.sub-menu {
+  display: block;
+}
+
+nav .sub-menu .sub-mini .sub-menu {
+  top: 0;
+  left: 100%;
+  display: none;
+}
+
+/* **********END HEADER********** */
+
+/* **********START BODY********** */
+/* slide */
+article {}
+
+section {}
+
+section .slide-intro {}
+
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+  margin: auto;
+  width: 100%;
+}
+
+/* benefit */
+.benefit,
+.why-choose,
+.list-teacher,
+.social-recognition,
+.mirror,
+.content-course {
+  text-align: center;
+  padding-bottom: var(--alignment-30);
+}
+
+.benefit {
+  background-color: var(--color-gray);
+}
+
+.title-type-h2 {
+  font-size: var(--font-size-24) !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 50px auto 10px;
+}
+
+.title-type-h3 {
+  font-size: var(--font-size-18) !important;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #000000;
+}
+
+.type-after::after {
+  content: "";
+  display: block;
+  margin: 16px auto 40px;
+  border-bottom: 2px solid var(--main-color-yellow);
+  width: 85px;
+}
+
+.benefit .content-benefit {}
+
+.content-benefit .item-content-benefit {}
+
+.item-content-benefit .img-item {}
+
+.item-content-benefit .img-item img {
+  width: fit-content;
+}
+
+.item-content-benefit .text-item,
+.item-content-why-choose .text-item {
+  font-size: var(--font-size-14);
+  margin: 25px auto;
+  font-weight: 600;
+}
+
+.text-item span {
+  color: var(--main-color-red);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: var(--font-size-16) !important;
+}
+
+.text-item p {
+  color: var(--color-gray-01);
+  font-weight: 500 !important;
+  margin: 8px 0;
+}
+
+/* why choose */
+.item-content-why-choose {
+  background-color: var(--color-gray);
+}
+
+.item-content-why-choose .img-item,
+img {
+  width: 100%;
+}
+
+.item-content-why-choose .text-item {
+  padding-bottom: 10px;
+}
+
+/* list-teacher Swiper Slide */
+.list-teacher {
+  background-image: url(./img/chuyen_gia.jpg);
+}
+
+.list-teacher .swiper-slide {
+  background-color: #cccccc;
+  width: 200px;
+  height: 150px;
+}
+
+/* it-iwish */
+.it-iwish {
+  background-image: url(./img/bg_02.jpg);
+  font-size: var(--font-size-24);
+  color: var(--color-white);
+  padding: 50px 0;
+}
+
+.it-iwish h2 {
+  text-align: center;
+  font-size: var(--font-size-24) !important;
+}
+
+.it-iwish .iwish {
+  background-image: url(./img/icon_002.png);
+  margin: 0 auto;
+  width: fit-content;
+  padding: 15px 25px 15px 55px;
+  border-radius: 3px;
+}
+
+.it-iwish .iwish a {
+  text-transform: uppercase;
+  color: var(--color-white);
+}
+
+.it-iwish .iwish a:hover {
+  color: var(--color-white);
+}
+
+/* social-recognition */
+.social-recognition {}
+
+.item-social .img-item {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.social-recognition .swiper-container {}
+
+.swiper-container .swiper-wrapper {}
+
+.swiper-wrapper .swiper-slide {
+  height: 500px;
+}
+
+/* mirror */
+.mirror {
+  background-color: var(--color-gray);
+}
+
+.mirror .it-iwish {
+  background-color: var(--color-gray);
+  background-image: none;
+  color: #ad1b1f;
+  padding-bottom: 0;
+}
+
+/* content course */
+.content-course {}
+
+/* **********END BODY********** */
+
+/* **********START FOOTER********** */
+
+/* **********END FOOTER********** */
+;
